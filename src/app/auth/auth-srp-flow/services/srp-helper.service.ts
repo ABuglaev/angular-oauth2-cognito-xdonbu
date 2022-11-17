@@ -1,9 +1,15 @@
 import { Injectable } from '@angular/core';
 import * as CryptoJS from 'crypto-js/core';
-import SHA256 from 'crypto-js/sha256';
+//import  SHA256  from 'crypto-js/sha256';
+
+var SHA256 = require("crypto-js/sha256");
+
 import { Observable } from 'rxjs';
-import HmacSHA256 from 'crypto-js/hmac-sha256';
-import Base64 from 'crypto-js/enc-base64';
+//import HmacSHA256 from 'crypto-js/hmac-sha256';
+//import Base64 from 'crypto-js/enc-base64';
+var HmacSHA256 = require("crypto-js/hmac-sha256");
+var Base64 = require("crypto-js/enc-base64");
+
 import { AuthenticationData } from '../model/authentication-data.model';
 import 'crypto-js/lib-typedarrays';
 import { environment } from '../../../../environments';
