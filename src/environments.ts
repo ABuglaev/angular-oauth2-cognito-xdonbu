@@ -1,8 +1,8 @@
 export const environment = {
   production: false,
   Auth: {
-    hostedUiUrl: 'CHANGE_ME',
-    clientId: '2sjcih050g06uddd4u1tdl9u4q',
+    hostedUiUrl: 'https://aalexnewtest.auth.eu-central-1.amazoncognito.com/',
+    clientId: '21vlvogdtf0dvkfq9tjlakcl9d',
     response_type: 'code',
     scope: 'email+openid+profile',
     redirect_uri: 'https://tonight.by/loggedin',
@@ -12,7 +12,7 @@ export const environment = {
     srpFlow: {
       cognitoIdpUrl: 'https://cognito-idp.eu-central-1.amazonaws.com/',
       region: 'eu-central-1',
-      userPoolId: 'eu-central-1_bXoD7wYvO'
+      userPoolId: 'eu-central-1_pwGd3ME20'
     }
   }
 };
